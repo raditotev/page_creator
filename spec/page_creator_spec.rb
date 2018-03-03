@@ -3,7 +3,10 @@ RSpec.describe PageCreator do
     expect(PageCreator::VERSION).not_to be nil
   end
 
-  it "does something useful" do
-    expect(false).to eq(true)
+  it "creates page objects at run time" do
+    class HomePage < SitePrism::Page
+    end
+
+    expect(home_page.class).to eq HomePage
   end
 end
