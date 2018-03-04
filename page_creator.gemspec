@@ -12,7 +12,7 @@ Gem::Specification.new do |spec|
   spec.summary       = %q{ Creates methods initialising site prism pages at run time }
   spec.description   = %q{ This gem removes the need of creating an extra module
                            with methods creating or reusing site prism pages
-                           instances .
+                           instances
                           }
   spec.homepage      = "https://github.com/raditotev/page_creator"
   spec.license       = "MIT"
